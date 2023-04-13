@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Contact Information</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h3>Contact Information</h3>
+    <h1>Contact Information:</h3>
     Thomas Lastname <br>
     living in Munich <br>
     in my Apartment <br>
-    Email me @Thomas.Lastname@gmail.com 
-    <br>
+    <hr>
     <h3>Feel free to contact me</h3>
-    <form action="mailto:email@name.com" method="post" enctype="text/plain">
-        <label>Your Name:</label>
-        <input type="text" name="YourName"><br>
-        <label>Your Email:</label>
-        <input type="email" name="YourEmail"><br>
-        <label>Your Message:</label><br>
-        <textarea name="YourMessage" id="" cols="30" rows="10"></textarea><br>        
-        <input type="submit">
-
+    <form action="mailto:Thomas.Lastname@email.com" method="post" enctype="text/plain">
+        <table>
+            <tr>
+                <td><label>Your Name:</label></td>
+                <td><input type="text" name="YourName"></td>
+            </tr>
+            <tr>
+                <td><label>Your Email:</label></td>
+                <td><input type="email" name="YourEmail"></td>
+            </tr>
+            
+        </table>
+        <table>
+            <tr>
+                <td><label>Your Message:</label><br>
+                <textarea name="YourMessage" id="" cols="30" rows="10"></textarea><br>        
+                <input type="submit"></td>
+            </tr>
+        </table>
     </form>
 
     <p>Click <a href="index.html">here</a> to get back to the Mainpage</p>
