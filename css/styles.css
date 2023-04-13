@@ -1,0 +1,30 @@
+
+body {
+    background-color: #FFD460;
+    color: #2D4059;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-top-width: 12px;
+    border-color: #F07B3F;
+    width: 5%;
+}
+
+h1 {
+    color: #EA5455;
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    color: #EA5455;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table {
+    border-style: none;
+    border-color:#F07B3F;
+}
